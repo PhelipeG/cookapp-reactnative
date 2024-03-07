@@ -16,13 +16,14 @@ export default function Recipes() {
   const [ingredients, setIngredients] = useState<IngredientResponse[]>([])
 
   const params = useLocalSearchParams<{ ingredientsIds: string }>()
-  const ingredientsIds = params.ingredientsIds?.split(",")
+  const ingredientsIds = params.ingredientsIds.split(",")
 
   useEffect(() => {
     services.recipes
       .findByIngredientsIds(ingredientsIds)
       .then((response) => {
         setRecipes(response)
+        console.log(response)
       })
       .catch((error) => {
         console.log(error)

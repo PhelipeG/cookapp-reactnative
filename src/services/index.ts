@@ -9,6 +9,6 @@ export const services = {
 
   storage: {
     imagePath:
-      "https://xuxxnjcnfdzjdwrbrplo.supabase.co/storage/v1/object/sign/ingredients",
+      "https://nukkuwgbrumofcapndyg.supabase.co/storage/v1/object/public/ingredients/",
   },
 };

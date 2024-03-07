@@ -5,6 +5,8 @@ import {
   Poppins_400Regular,
   Poppins_500Medium,
 } from "@expo-google-fonts/poppins";
+import * as SplashScreen from "expo-splash-screen"
+import { StatusBar } from "expo-status-bar";
 
 export default function Layout() {
   const [fontsLoaded] = useFonts({
@@ -15,6 +17,13 @@ export default function Layout() {
   if (!fontsLoaded) {
     return;
   }
+  SplashScreen.hideAsync()
 
-  return fontsLoaded ?  <Slot /> : null;
+  return  (
+    <>
+      <StatusBar style="dark" />
+      <Slot />
+    </>
+  )
+ 
 }
