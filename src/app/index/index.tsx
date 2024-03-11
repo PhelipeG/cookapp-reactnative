@@ -18,7 +18,6 @@ export default function Home() {
     services.ingredients
       .findAll()
       .then((response) =>{
-        console.log(response)
         setIngredients(response)
       })
       .finally(() => setIsLoading(false))
