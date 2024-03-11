@@ -1,6 +1,6 @@
 
 <h1 align="center">
-    <img alt="cook-home" title="#comidasereceitas" src="https://github.com/GuilhaoF/cook-app/assets/67026555/d3d71e6a-baf5-422c-9f33-9ec0436c1bb6)" width="400px" />
+    <img alt="cook-home" title="#comidasereceitas" src="https://github.com/GuilhaoF/cook-app/assets/67026555/d3d71e6a-baf5-422c-9f33-9ec0436c1bb6" width="400px" />
 </h1>
 
 <h4 align="center"> 
