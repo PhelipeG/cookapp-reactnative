@@ -67,6 +67,43 @@ Além disto é bom ter um editor para trabalhar com o código como [VSCode](http
  ## projeto usando supabase consultar documentacao e as variaveis que precisam no arquivo .env_example
 
 ```
+#### 📱  Mobile 
+```bash
+
+# Clone este repositório
+$ git clone https://github.com/GuilhaoF/cook-app.git
+
+# Acesse a pasta do projeto no seu terminal/cmd
+$ cd cook-app
+
+# Instale as dependências
+$ npm install ou npm i 
+
+# Execute a aplicação em modo de desenvolvimento
+$ npx expo start 
+
+# Escolha aonde quer rodar a aplicacao
+Metro waiting on exp://192.168.3.10:8081
+› Scan the QR code above with Expo Go (Android) or the Camera app (iOS)
+
+› Web is waiting on http://localhost:8081
+
+› Using Expo Go
+› Press s │ switch to development build
+
+› Press a │ open Android
+› Press i │ open iOS simulator
+› Press w │ open web
+
+› Press j │ open debugger
+› Press r │ reload app
+› Press m │ toggle menu
+› Press o │ open project code in your editor
+
+› Press ? │ show all commands
+
+```
+---
 
 ## 🛠 Tecnologias
 
